@@ -1,0 +1,53 @@
+html {
+	box-sizing: border-box;
+	/* 1rem = 10px */
+	font-size: 62.5%;
+}
+
+* {
+	box-sizing: inherit;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.6rem;
+}
+
+.header {
+	background-color: yellow;
+	padding: 5rem;
+}
+
+.titulo {
+	color: coral;
+	text-align: center;
+}
+
+.conejo {
+	color: dodgerblue;
+}
+
+#jirafa {
+	color: lightgreen;
+}
+
+.navegacion {
+	margin: 2rem 0;
+	padding: 2rem 0;
+	background-color: dodgerblue;
+	text-align: center;
+	display: flex;
+	justify-content: space-around;
+}
+
+.btn {
+	background-color: black;
+	color: white;
+	display: block;
+	text-transform: uppercase;
+	font-weight: 700;
+	padding: 1rem;
+	border-radius: 1rem;
+	border: none;
+	cursor: pointer;
+}
